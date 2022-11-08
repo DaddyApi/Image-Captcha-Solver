@@ -10,7 +10,11 @@ result example:
 
 
 You can also load just the result like this:
-
+###
+<code>
 import json
+  
 data=json.loads(response.text)
-print(data['solution'])
+
+  print(data['solution'])
+</code>
