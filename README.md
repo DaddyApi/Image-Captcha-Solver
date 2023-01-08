@@ -12,10 +12,9 @@ You can also load just the result like this:
 ###
 
 import json 
-  
 data=json.loads(response.text) 
-
 print(data['solution']) 
 
 Script works through Rapidapi and uses this API: https://rapidapi.com/DaddyApi/api/image-captcha-solver-daddy/
+
 You will your api key, in order to solve. There is a free tier.
